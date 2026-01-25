@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>vscode adithyan</title>
+
+</head>
+
+<body class="bg-slate-950">
+    <div class=" text-slate-400">
+
+        <!-- NAVBAR -->
+        <nav class="border-b-1   bg-slate-950 h-20 flex items-center text-white justify-around ">
+
+
+            <div class="flex gap-4 text-slate-300   cursor-pointer">
+                <img src="download.png" class="w-7" alt="">
+                <p class="font-semibold ">Visual Studio Code</p>
+                <p class="hover:text-slate-400 hidden md:flex">Docs</p>
+                <p class="hover:text-slate-400 hidden md:flex">Update</p>
+                <p class="hover:text-slate-400 hidden md:flex">Blogs</p>
+                <p class="hover:text-slate-400 hidden md:flex">Extension</p>
+                <p class="hover:text-slate-400 hidden md:flex">MCP</p>
+                <p class="hover:text-slate-400 hidden md:flex">FAQ</p>
+
+            </div>
+
+            <div class="flex gap-6 hidden md:flex">
+                <div><i class="fa-regular fa-sun"></i></div>
+                <div><i class="fa-solid fa-magnifying-glass"></i></div>
+                <button class="bg-sky-600 rounded full px-3 py-1 font-semibold hover:bg-sky-700">Download</button>
+
+            </div>
+
+            <div class="sm:flex md:hidden"><i class="fa-solid fa-bars"></i></div>
+
+
+        </nav>
+
+        <!-- hero section -->
+        <section>
+            <div class=" flex justify-center   ">
+                <h1 class="text-white text-4xl text-3xl/11 md:text-7xl md:text-7xl/22 font-bold  pt-9 pb-9">The open
+                    source
+                    <br>
+                    <p class="text-center">AI code editor</p>
+                </h1>
+
+            </div>
+
+            <div class="bg-slate-800 w-full max-w-[350px] mx-auto rounded-md p-4 ">
+
+
+                <button class="bg-white mx-auto rounded-lg px-12  py-3 flex gap-3 text-black mb-3">
+                    <i class="fa-brands fa-windows pt-1"></i>
+                    <p class="font-semibold">Download for windows</p>
+                </button>
+
+                <button class=" bg-white mx-auto rounded-lg px-15  py-3 flex gap-3 text-black ">
+                    <i class="fa-brands fa-linux pt-1"></i>
+                    <p class="font-semibold">Download for Linux</p>
+                </button>
+
+                <p class="text-xs text-center pt-3 text-white">Web, Insiders edition, or other platforms <br> By using
+                    VSCode, you agree to its license and privacy statement.
+                </p>
+
+
+            </div>
+
+
+            <!-- bg-sky-800 hover:bg-purple-600/80 -->
+            <div
+                class=" mt-11 bg-gradient-to-r from-sky-600/50 to-purple-500/50 p-7 md:p-10 rounded-md  max-w-5xl mx-auto">
+                <img src="cut1.png" alt="" class="hidden md:flex">
+                <img src="cut2.png" alt="" class="sm:flex md:hidden">
+            </div>
+
+
+        </section>
+
+        <!-- three card section -->
+
+        <section class="grid md:grid-cols-3 max-w-5xl w-full  mx-auto mt-9 ">
+            <div class="w-full p-4"><img src="cut3.png" alt="" class="rounded-xl"></div>
+            <div class="w-full p-4 "><img src="cut4.png" alt="" class="h-full rounded-xl"></div>
+            <div class="w-full p-4"><img src="cut5.png" alt="" class="rounded-xl"></div>
+
+        </section>
+
+        <div class="bg-gradient-to-r 
+            from-[#7AAE9A] 
+            via-[#3B5BA9] 
+            to-[#0B0F14] h-40 w-full max-w-5xl md:mx-auto mx-3 rounded-md grid md:grid-cols-2 ">
+
+            <div class=" mx-auto text-2xl md:text-3xl font-semibold text-white flex items-center  md:pt-11 ">
+                Use AI features in VS Code for free
+            </div>
+
+            <div class="flex items-center">
+                <p class="text-white md:pt-11 font-medium ">No trial. No credit card required. Just your GitHub account.
+                </p>
+
+            </div>
+
+            <button
+                class="bg-gray-900 outline-1 text-sm text-white px-3 py-1 rounded-sm w-[74px] h-[35px] md:ml-128 hover:bg-slate-800">Try
+                free
+            </button>
+
+
+        </div>
+
+        <!-- grid section -->
+        <section class="grid md:grid-cols-2 md:px-12 px-3 md:mt-22">
+
+            <div class="  w-full max-w-sm mt-11 p-3 md:p-10 text-white ">
+                <p class="font-medium text-3xl ">Agent Mode</p>
+                <p class="pt-4 text-sm md:text-lg">Tackle complex, multi-step tasks. Agent mode reads your codebase, suggests edits across files, runs terminal commands, and responds to compile or test failures — all in a loop until the job is done. Further refine agent mode to fit your team's workflows with VS Code extensions and Model Context Protocol (MCP) servers.</p>
+                <a href="https://code.visualstudio.com/docs/copilot/agents/overview" class="text-sky-700 font-medium underline hover:text-sky-600 mt-2">Build with agent mode</a>
+            </div>
+
+            <div
+                class=" mt-11 bg-gradient-to-r from-sky-600/50 to-purple-500/50 p-7 md:p-10 rounded-md  max-w-2xl ">
+                <img src="cut6.png" alt="" class="hidden md:flex">
+                <img src="cut7.png" alt="" class="sm:flex md:hidden">
+            </div>
+
+
+            <div class=" w-full max-w-sm mt-11 p-3 md:p-10 text-white ">
+                <p class="font-medium text-3xl">Next edit suggestions</p>
+                <p class="pt-4 text-sm md:text-lg">VS Code predicts your next move as you code. Use the Tab key to accept AI-powered suggestions right in your editor. It intelligently recommends what to change — and where — based on the edits you're already making.</p>
+                <a href="https://code.visualstudio.com/blogs/2025/02/12/next-edit-suggestions" class="text-sky-700 underline hover:text-sky-600 mt-2">Next edit suggestions</a>
+            </div>
+
+            <div
+                class=" mt-11 bg-gradient-to-r from-sky-600/50 to-purple-500/50 p-7 md:p-10 rounded-md  max-w-xl ">
+                <img src="cut8.png" alt="" class="hidden md:flex">
+                <img src="cut9.png" alt="" class="sm:flex md:hidden">
+            </div>
+
+
+
+            
+
+            
+        </section>
+
+
+
+
+    </div>
+</body>
