@@ -57,14 +57,14 @@
             <div class="bg-slate-800 w-full max-w-[350px] mx-auto rounded-md p-4 ">
 
 
-                <button class="bg-white mx-auto rounded-lg px-12  py-3 flex gap-3 text-black mb-3">
+                <button class="bg-white mx-auto rounded-lg px-12  py-3 flex gap-3 text-black mb-3 hover:border-2 border-sky-600 ">
                     <i class="fa-brands fa-windows pt-1"></i>
-                    <p class="font-semibold">Download for windows</p>
+                    <a href="https://code.visualstudio.com/download" class="font-semibold">Download for windows</a>
                 </button>
 
-                <button class=" bg-white mx-auto rounded-lg px-15  py-3 flex gap-3 text-black ">
+                <button class=" bg-white mx-auto rounded-lg px-15  py-3 flex gap-3 text-black hover:border-2 border-sky-600">
                     <i class="fa-brands fa-linux pt-1"></i>
-                    <p class="font-semibold">Download for Linux</p>
+                    <a href="https://code.visualstudio.com/download" class="font-semibold">Download for Linux</a>
                 </button>
 
                 <p class="text-xs text-center pt-3 text-white">Web, Insiders edition, or other platforms <br> By using
@@ -77,7 +77,7 @@
 
             <!-- bg-sky-800 hover:bg-purple-600/80 -->
             <div
-                class=" mt-11 hover:bg-purple-600/80 bg-gradient-to-r from-sky-600/50 to-purple-500/50 p-7 md:p-10 rounded-md  max-w-5xl mx-auto">
+                class=" mt-13 hover:bg-purple-600/80 bg-gradient-to-r from-sky-600/50 to-purple-500/50 p-7 md:p-10 rounded-md  max-w-5xl mx-auto">
                 <img src="cut1.png" alt="" class="hidden md:flex">
                 <img src="cut2.png" alt="" class="sm:flex md:hidden">
             </div>
@@ -364,7 +364,7 @@
             </div>
         </section>
 
-
+        <!-- fully customizable section -->
         <section class="md:px-12 md:flex">
 
 
@@ -374,14 +374,21 @@
 
                 <p class="mt-5">Customize your VS Code UI and layout so that it fits your coding style.</p>
 
-                <p class="mt-9"><a class="text-sky-400 underline hover:text-sky-700" href="https://code.visualstudio.com/docs/configure/themes">Color themes</a> let you modify the colors in VS Code's user interface to suit your preferences and work environment.</p>
-                
-                <p class="mt-9"><a class="text-sky-400 underline hover:text-sky-700" href="https://code.visualstudio.com/docs/configure/settings#_settings-sync"> Settings Sync</a> enables you to share your user settings across your VS Code instances with the Settings Sync feature.</p>
+                <p class="mt-9"><a class="text-sky-400 underline hover:text-sky-700"
+                        href="https://code.visualstudio.com/docs/configure/themes">Color themes</a> let you modify the
+                    colors in VS Code's user interface to suit your preferences and work environment.</p>
 
-                <p class="mt-9"><a class="text-sky-400 underline hover:text-sky-700" href="https://code.visualstudio.com/docs/configure/profiles">Profiles</a> let you create sets of customizations and quickly switch between them or share them with others.</p>
+                <p class="mt-9"><a class="text-sky-400 underline hover:text-sky-700"
+                        href="https://code.visualstudio.com/docs/configure/settings#_settings-sync"> Settings Sync</a>
+                    enables you to share your user settings across your VS Code instances with the Settings Sync
+                    feature.</p>
+
+                <p class="mt-9"><a class="text-sky-400 underline hover:text-sky-700"
+                        href="https://code.visualstudio.com/docs/configure/profiles">Profiles</a> let you create sets of
+                    customizations and quickly switch between them or share them with others.</p>
 
             </div>
-            
+
 
             <div class="w-full h-full max-h-4xl max-w-5xl md:mt-19  mt- p-3">
                 <img src="cut10.png" alt="" class="rounded-md outline-1">
@@ -389,6 +396,190 @@
 
 
         </section>
+
+        <!-- code anywhere section -->
+        <section class="md:px-12 md:flex">
+
+
+            <div class=" w-full max-w-sm mt-11 p-3 md:p-10 text-white  ">
+                <p class="font-medium text-3xl ">Code anywhere
+                </p>
+
+                <p class="mt-5">Code wherever you're most productive, whether you're connected to the cloud, a remote
+                    repository, or in the browser with VS Code for the Web (vscode.dev).</p>
+
+                <p class="mt-9"><a class="text-sky-400 underline hover:text-sky-700"
+                        href="https://code.visualstudio.com/docs/sourcecontrol/overview">Built-in source control</a>
+                    empowers you with Git support out-of-the-box. Many other source control providers are available
+                    through extensions.</p>
+
+                <p class="mt-9"><a class="text-sky-400 underline hover:text-sky-700"
+                        href="https://code.visualstudio.com/docs/remote/codespaces"> GitHub Codespaces</a> provides
+                    cloud-powered development environments for any activity - whether it's a long-term project, or a
+                    short-term task like reviewing a pull request.</p>
+
+
+
+            </div>
+
+
+            <div class="w-full h-full max-h-4xl max-w-5xl md:mt-19  mt- p-3">
+                <img src="cut11.png" alt="" class="rounded-md outline-1">
+            </div>
+
+
+        </section>
+
+        <div class="text-center">
+            <div class="font-semibold text-2xl md:text-3xl mt-6">Code with rich features
+            </div>
+            <div class="pt-4 font-normal text-sm md:font-medium p-3">There's a lot more to an editor. Whether it's using
+                built-in features or <br class="hidden md:flex"> rich extensions, there's
+                something for everyone.
+
+            </div>
+        </div>
+
+
+
+        <!-- four card section -->
+        <section class="grid md:grid-cols-4 md:p-17 p-10 gap-y-6">
+
+
+            <div class="w-65 h-55 bg-gradient-to-b from-[#0F172A] to-[#020617]    rounded-lg outline-1 p-5 mx-auto">
+                <div class="w-full max-w-[40px] bg-slate-800 rounded-sm"><img src="codicon-terminal.svg" alt=""
+                        class="p-2"></div>
+
+
+                <p class="font-medium text-lg pt-6">Integrated terminal</p>
+
+                <p class="text-sm font-medium pt-4">Use your favorite shell whether it's zsh, pwsh, or git bash, all
+                    inside the editor.</p>
+
+
+            </div>
+
+
+            <div class="w-65 h-55 bg-gradient-to-b from-[#0F172A] to-[#020617]    rounded-lg outline-1 p-5 mx-auto">
+                <div class="w-full max-w-[40px] bg-slate-800 rounded-sm"><img src="codicon-debug.svg" alt=""
+                        class="p-2"></div>
+
+
+                <p class="font-medium text-lg pt-6">Run code</p>
+
+                <p class="text-sm font-medium pt-4">Run and debug your code without leaving your editor.</p>
+
+
+            </div>
+
+
+            <div class="w-65 h-55 bg-gradient-to-b from-[#0F172A] to-[#020617]    rounded-lg outline-1 p-5 mx-auto">
+                <div class="w-full max-w-[40px] bg-slate-800 rounded-sm"><img src="codicon-version-control.svg" alt=""
+                        class="p-2"></div>
+
+
+                <p class="font-medium text-lg pt-6">Version control</p>
+
+                <p class="text-sm font-medium pt-4">Built-in support for git and many other source control providers.
+                </p>
+
+
+            </div>
+
+
+            <div class="w-65 h-55 bg-gradient-to-b from-[#0F172A] to-[#020617]    rounded-lg outline-1 p-5 mx-auto">
+                <div class="w-full max-w-[40px] bg-slate-800 rounded-sm"><img src="codicon-build-tasks.svg" alt=""
+                        class="p-2"></div>
+
+
+                <p class="font-medium text-lg pt-6">Build tasks</p>
+
+                <p class="text-sm font-medium pt-4">Run tools and analyze their results from within VS Code.</p>
+
+
+            </div>
+
+
+            <div class="w-65 h-55 bg-gradient-to-b from-[#0F172A] to-[#020617]    rounded-lg outline-1 p-5 mx-auto">
+                <div class="w-full max-w-[40px] bg-slate-800 rounded-sm"><img src="codicon-local-history.svg" alt=""
+                        class="p-2"></div>
+
+
+                <p class="font-medium text-lg pt-6">Local history</p>
+
+                <p class="text-sm font-medium pt-4">Never lose your changes with automatically tracked local history</p>
+
+
+            </div>
+
+
+            <div class="w-65 h-55 bg-gradient-to-b from-[#0F172A] to-[#020617]    rounded-lg outline-1 p-5 mx-auto">
+                <div class="w-full max-w-[40px] bg-slate-800 rounded-sm"><img src="codicon-themes.svg" alt=""
+                        class="p-2"></div>
+
+
+                <p class="font-medium text-lg pt-6">Themes</p>
+
+                <p class="text-sm font-medium pt-4">Your theme is an extension of your personality. Add some flair to
+                    your editor and add your touch.</p>
+
+
+            </div>
+
+
+            <div class="w-65 h-55 bg-gradient-to-b from-[#0F172A] to-[#020617]    rounded-lg outline-1 p-5 mx-auto">
+                <div class="w-full max-w-[40px] bg-slate-800 rounded-sm"><img src="codicon-accessibility.svg" alt=""
+                        class="p-2"></div>
+
+
+                <p class="font-medium text-lg pt-6">Accessibility</p>
+
+                <p class="text-sm font-medium pt-4">Optimized experience for screen readers, high contrast themes, and
+                    keyboard-only navigation.</p>
+
+
+            </div>
+
+
+            <div class="w-65 h-55 bg-gradient-to-b from-[#0F172A] to-[#020617]    rounded-lg outline-1 p-5 mx-auto">
+                <div class="w-full max-w-[40px] bg-slate-800 rounded-sm"><img src="codicon-web.svg" alt="" class="p-2">
+                </div>
+
+
+                <p class="font-medium text-lg pt-6">Web support</p>
+
+                <p class="text-sm font-medium pt-4">Whether you are on your phone, tablet, or desktop, you can access
+                    your code from anywhere.</p>
+
+
+            </div>
+        </section>
+
+        <!-- footer -->
+
+        <footer class="md:mx-19 mx-3 flex justify-between    ">
+            <div class="flex md:gap-7 gap-2">
+                <img src="github-icon.svg" alt="">
+                <img src="x-icon.svg" alt="" class="w-5 ">
+                <img src="linkedin-icon.svg" alt="">
+                <img src="bluesky-icon.svg" alt="">
+                <img src="reddit-icon.svg" alt="">
+                <img src="tiktok-icon.svg" alt="">
+                <img src="youtube-icon.svg" alt="">
+                <img src="bluesky-icon.svg" alt="">
+                
+            </div>
+            <div>
+                <img src="microsoft.svg" alt="">
+            </div>
+        </footer>
+        <div class="text-xs flex gap-4 md:mx-33 mx-5 pt-5 pb-5">
+            
+            <a href="https://code.visualstudio.com/docs/supporting/FAQ">support</a>
+            <a href="https://www.microsoft.com/en-us/privacy/privacystatement">privacy</a>
+            <a href="https://www.microsoft.com/en-us/legal/terms-of-use">Terms of use</a>
+            <a href="https://code.visualstudio.com/License">License</a>
+        </div>
 
 
 
